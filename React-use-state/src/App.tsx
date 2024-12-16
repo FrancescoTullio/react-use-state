@@ -1,11 +1,13 @@
-
+import AppHeader from "./component/AppHeader.jsx"
+import AppMain from "./component/AppMain.jsx"
 
 function App() {
   
 
   return (
     <>
-      <h1>hello world</h1>
+      <AppHeader />
+      <AppMain />
     </>
   )
 }
